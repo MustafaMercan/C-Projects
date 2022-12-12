@@ -31,4 +31,6 @@ void login_system(d_list *admin);
 bool check_user_informations(d_list *admin,char *password, unsigned int id_number);
 d_list *find_user_data(d_list *admin,char *password, unsigned int id_number);
 bool ft_strcmp(char *str1, char *str2);
+d_list *find_user(d_list *admin,unsigned int id,char *name);
+void    delete_node(d_list *admin,d_list *targ);
 #endif
